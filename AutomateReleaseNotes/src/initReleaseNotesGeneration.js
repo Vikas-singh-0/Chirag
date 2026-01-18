@@ -1,6 +1,6 @@
 import fs from 'fs';
-import generateReleaseNotes from './generateReleaseNotes.js';
 import getGitChanges from './getGitChanges.js';
+import generateReleaseNotes from './generateReleaseNotes.js';
 
 async function initReleaseNotesGeneration() {
   let releaseNotes;
