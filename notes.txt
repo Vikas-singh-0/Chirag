@@ -1,0 +1,11 @@
+**Release Notes for Ticket: **
+18 January 2026 at 09:11 pm IST
+
+- **New Features**:
+    *   No new user-facing features were introduced in this release.
+
+- **Improvements**:
+    *   Streamlined the internal codebase responsible for detecting and processing Git changes. This refinement enhances code organization and maintainability, paving the way for more robust and efficient future updates to the release note generation process.
+
+- **Technical Details**:
+    *   Refactored the module and function used for retrieving Git changes. The `getGitChanges.js` module and its `getGitChanges()` function have been renamed to `getGitChangesMethod.js` and `getGitChangesMethod()` respectively. This internal change improves code clarity and modularity without altering the existing functionality.
