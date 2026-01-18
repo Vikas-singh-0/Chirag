@@ -1,11 +1,13 @@
-**Release Notes for Ticket: **
-18 January 2026 at 09:11 pm IST
+**Release Notes for Ticket: [Missing Ticket Number]**
+18 January 2026 at 09:19 pm IST
 
-- **New Features**:
-    *   No new user-facing features were introduced in this release.
+### New Features
+*   Introduced new mathematical functions: `subtract` and `mult`, expanding the system's basic arithmetic capabilities.
 
-- **Improvements**:
-    *   Streamlined the internal codebase responsible for detecting and processing Git changes. This refinement enhances code organization and maintainability, paving the way for more robust and efficient future updates to the release note generation process.
+### Improvements
+*   Enhanced security and configuration flexibility by no longer hardcoding sensitive API keys directly in the codebase. This makes the system more secure and easier to manage across different environments.
 
-- **Technical Details**:
-    *   Refactored the module and function used for retrieving Git changes. The `getGitChanges.js` module and its `getGitChanges()` function have been renamed to `getGitChangesMethod.js` and `getGitChangesMethod()` respectively. This internal change improves code clarity and modularity without altering the existing functionality.
+### Technical Details
+*   Implemented `dotenv` library to manage API keys and other sensitive configurations through environment variables.
+*   Migrated the `GEMINI_API_KEY` from hardcoded values to environment variables, improving security and adhering to best practices for credentials management.
+*   Added `subtract` and `mult` functions to `src/index.js`, expanding core utility functions.
