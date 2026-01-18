@@ -13,3 +13,5 @@ function mult(a, b) {
 function div(a, b) {
   return a/b
 }
+
+add(2,3)
